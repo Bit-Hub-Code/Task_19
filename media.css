@@ -1,0 +1,230 @@
+@media screen and (width < 2150px) {
+
+    .theme {
+
+        width: 700px;
+    
+    }
+
+    .name {
+
+        width: 250px;
+    
+    }
+
+}
+
+@media screen and (width < 1550px) {
+
+    .theme {
+
+        width: 500px;
+    
+    }
+
+    .name {
+
+        width: 180px;
+    
+    }
+
+    .mainLeftBlock {
+
+        min-width: 200px;
+    
+    }
+
+}
+
+@media screen and (width < 1200px) {
+
+    .theme {
+
+        width: 400px;
+    
+    }
+
+    .name {
+
+        width: 150px;
+    
+    }
+
+    .mainLeftBlock {
+
+        min-width: 180px;
+    
+    }
+
+}
+
+@media screen and (width < 1000px) {
+
+    .theme {
+
+        width: 250px;
+    
+    }
+
+    .name {
+
+        width: 100px;
+    
+    }
+
+    .mainLeftBlock {
+
+        min-width: 140px;
+        padding: 0px;
+
+    }
+
+    .name p {
+
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
+    }
+
+    .incoming {
+
+        padding: 0px;
+        margin: 0px;
+        padding-top: 2px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        width: 100%;
+
+    }
+
+    .outgoing {
+
+        padding: 0px;
+        margin: 0px;
+        padding-top: 2px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        width: 100%;
+
+    }
+
+    .drafts {
+
+        padding: 0px;
+        margin: 0px;
+        padding-top: 2px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        width: 100%;
+
+    }
+
+    .spam {
+
+        padding: 0px;
+        margin: 0px;
+        padding-top: 2px;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (width < 800px) {
+
+    .nameTheme {
+
+        flex-wrap: wrap;
+
+    }
+
+    .name p {
+
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .theme p {
+
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .theme {
+
+        width: 180px;
+
+    }
+
+    .mainLeftBlock {
+
+        width: 100px;
+        margin-right: 10px;
+        margin-left: 20px;
+    
+    }
+
+}
+
+@media screen and (width < 550px) {
+
+    .incoming p {
+
+        display: none;
+
+    }
+
+    .outgoing p {
+
+        display: none;
+
+    }
+
+    .drafts p {
+
+        display: none;
+
+    }
+
+    .spam p {
+
+        display: none;
+
+    }
+
+    .incoming,
+    .outgoing,
+    .drafts,
+    .spam {
+
+        width: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+
+    }
+
+    .mainLeftBlock {
+
+        min-width: 0px;
+        width: 80px;
+        margin: 0px;
+        padding: 0px;
+    
+    }
+
+    .line {
+
+        padding-left: 0px;
+        margin-left: 10px;
+
+    }
+
+}
